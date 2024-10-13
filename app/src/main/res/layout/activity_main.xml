@@ -21,12 +21,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/toolbarMain" />
+
      <ScrollView
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          app:layout_constraintEnd_toEndOf="parent"
          app:layout_constraintStart_toStartOf="parent"
          app:layout_constraintTop_toBottomOf="@id/downloadBTN">
+
         <TextView
             android:id="@+id/textViewTV"
             android:layout_width="wrap_content"
@@ -36,5 +38,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/downloadBTN" />
+
      </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
